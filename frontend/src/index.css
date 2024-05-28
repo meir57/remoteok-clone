@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+    margin: 0;
+    font-family: Ubuntu;
+}
+
+body {
+    background-color: #fbfaf8;
+    overflow-x: hidden;
+}
