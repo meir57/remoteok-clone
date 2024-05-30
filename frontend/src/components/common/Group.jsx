@@ -4,7 +4,7 @@ export default function Group(props) {
             <div className="text-[12px] uppercase font-bold text-center relative top-[10px] w-[100px] justify-center bg-white px-1 border-solid border-l-[1px] border-r-[1px] border-t-[1px] border-[#ddd] rounded-t-[7px]">
                 {props.title}
             </div>
-            <div className="p-[20px] w-[100%] bg-white rounded-[8px] border-solid border-[1px] border-[#ddd]">
+            <div className="p-[20px] pb-1 w-[100%] bg-white rounded-[8px] border-solid border-[1px] border-[#ddd]">
                 {props.children}
             </div>
         </div>

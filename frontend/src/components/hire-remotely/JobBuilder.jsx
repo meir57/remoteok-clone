@@ -50,6 +50,10 @@ export default function JobBuilder() {
         "🚥 Marketing",
     ];
 
+    const locations = [
+        ''
+    ];
+
     return (
         <div className="w-[100%] h-screen">
             <Group title="let's start">
@@ -96,7 +100,9 @@ export default function JobBuilder() {
                     label="Tags, keywords or stack"
                     id="stack"
                     name="stack"
+                    placeholder="Type a tag or keyword to search and add it"
                     options={keywords}
+                    creatable
                     required={true}
                     info={`
                         Short tags are preferred. Use tags like industry and tech stack. 
@@ -104,6 +110,22 @@ export default function JobBuilder() {
                         but the job will be shown on each tag specific page (like /remote-react-jobs). 
                         We also sometimes generate tags automatically after you post/edit to supplement.
                     `}
+                />
+                <FormMultiSelect
+                    label="Job is restricted to locations?"
+                    id="locations"
+                    name="locations"
+                    placeholder="Type a location this job is restricted to like Worldwide, Europe, or Netherlands"
+                    options={keywords}
+                    info={`
+                        If you'd only like to hire people from a specific location or timezone 
+                        this remote job is restricted to (e.g. Europe, United States or Japan). 
+                        If not restricted, please leave it as "Worldwide". The less restricted this is, 
+                        the more applicants you will get. Keeping it "Worldwide" is highly recommended 
+                        as you'll have access to a worldwide pool of talent. <b>To promote fairness in 
+                        remote work positions, <u>worldwide jobs are ranked higher</u>.</b>
+                    `}
+                    new
                 />
             </Group>
         </div>
