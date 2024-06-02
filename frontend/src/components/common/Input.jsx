@@ -5,10 +5,13 @@ export default function Input(props) {
         type = "text",
         link = null,
         required = false,
+        readOnly=false,
+        value="",
     } = props;
 
     return (
-        <input 
+        <input
+            defaultValue={value}
             ref={link}
             type={type}
             name={props.name}
@@ -19,6 +22,7 @@ export default function Input(props) {
             className={props.className + " outline-none border-none bg-[#fbfaf8] shadow-[0_0_0_1px_#ddd] focus:shadow-[0_0_0_4px_rgba(255,75,66,0.5)]"}
             placeholder={props.placeholder}
             required={required}
+            readOnly={readOnly}
         />
     );
 }

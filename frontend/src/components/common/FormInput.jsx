@@ -1,4 +1,5 @@
 import Input from "../common/Input";
+import Label from "../common/Label";
 
 export default function FormInput(props) {
     const {
@@ -6,19 +7,15 @@ export default function FormInput(props) {
     } = props;
 
     return (
-        <div className="flex flex-col text-[14px] mb-5">
-            <label htmlFor={props.id} className="font-bold uppercase mb-2">
-                {props.label}
-                &nbsp;
-                { props.required && <span className="text-[red]">*</span> }
-            </label>
-            <Input 
+        <div className={props.className + " flex flex-col text-[14px] mb-5"}>
+            <Label id={props.id} required={required}>{props.label}</Label>
+            <Input
                 id={props.id}
                 placeholder={props.placeholder}
                 className="rounded-[5px] p-[5px] text-[16px]"
                 required={required}
             />
-            <div className="text-[9px] text-[#888] mt-3 ms-[.5px]">
+            <div className="text-[8px] text-[#888] mt-3 ms-[.5px] text-justify">
                 {props.info}
             </div>
         </div>

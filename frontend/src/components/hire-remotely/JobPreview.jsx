@@ -12,7 +12,7 @@ export default function JobPreview () {
                     facts = {["🇺🇸️ United States", "💰️ $60k - $110k"]}
                     keywords = {["Software", "React", "Front End"]}
                     time="2d"
-                    className="m-4"
+                    className="my-4 mx-5"
                     showButton
                 />
             </div>

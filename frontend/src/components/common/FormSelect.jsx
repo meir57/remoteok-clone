@@ -12,10 +12,11 @@ export default function FormSelect(props) {
                 id={props.id}
                 name={props.name}
                 className="rounded-[5px] p-[5px] text-[16px]"
+                required={props.required}
             >
                 {props.options}
             </Select>
-            <div className="text-[9px] text-[#888] mt-3 ms-[.5px]">
+            <div className="text-[8px] text-[#888] mt-3 ms-[.5px] text-justify">
                 {props.info}
             </div>
         </div>
