@@ -1,7 +1,7 @@
 import { useState } from "react";
 
-import Keyword from "../common/Keyword";
-import Icon from "../home/Icon";
+import Keyword from "./Keyword";
+import Icon from "./Icon";
 import Button from "./Button";
 
 export default function Job(props) {
@@ -11,7 +11,7 @@ export default function Job(props) {
     const hide = () => setVisible(false);
 
     return (
-        <div className={props.className + " flex items-center bg-white py-[10px] px-[20px] rounded-default mb-[15px] cursor-pointer shadow-[0_0_0_1px_#ddd] hover:opacity-[.7]"} onMouseEnter={show} onMouseLeave={hide}>
+        <div className={"flex items-center bg-white py-[10px] px-[20px] rounded-default mb-[15px] cursor-pointer shadow-[0_0_0_1px_#ddd] hover:opacity-[.7] " + props.className} onMouseEnter={show} onMouseLeave={hide}>
             <div className="w-[90px]">
                 <Icon url={props.url} className="rounded-[50%] p-[2px] pe-[1px] shadow-[0_0_0_1px_#ddd]" />
             </div>

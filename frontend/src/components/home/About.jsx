@@ -1,4 +1,4 @@
-import Icon from "./Icon";
+import Icon from "../common/Icon";
 import Button from "../common/Button";
 import useMeasure from "react-use-measure";
 import { animate, motion, useMotionValue } from 'framer-motion';

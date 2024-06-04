@@ -4,6 +4,7 @@ import Design from "./groups/Design";
 import FeedbackUs from "./groups/FeedbackUs";
 import Intro from "./groups/Intro";
 import Partner from "./groups/Partner";
+import Preview from "./groups/Preview";
 
 export default function JobBuilder() {
     return (
@@ -13,6 +14,7 @@ export default function JobBuilder() {
             <Company />
             <BuyBundle />
             <FeedbackUs />
+            <Preview />
             <Partner />
         </div>
     );

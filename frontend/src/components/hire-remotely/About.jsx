@@ -1,5 +1,5 @@
 import { useState } from "react";
-import Icon from "../home/Icon";
+import Icon from "../common/Icon";
 
 export default function About () {
     let partners = [

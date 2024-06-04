@@ -1,18 +1,16 @@
 import Group from "../../common/Group";
-import Job from "../../common/Job";
+import PartnerPost from "../../common/PartnerPost";
 
 export default function Partner() {
     return (
         <Group title="From our partners (opens in new window)">
-            <Job 
-                url="https://remoteok.com/cdn-cgi/image/format=auto,fit=contain,width=60,height=60,quality=100/https://remoteok.com/assets/img/jobs/ccc57da2103a42b4dbdfe2ef4828d5db1716328814.png?1716328814"
-                title="Senior Software Engineer"
-                company="Nourish"
-                facts = {["🇺🇸️ United States", "💰️ $60k - $110k"]}
-                keywords = {["Software", "React", "Front End"]}
-                time="2d"
-                className="my-4"
-                showButton
+            <PartnerPost
+                url="https://via.placeholder.com/60"
+                title="The first health insurance for remote startups"
+                description="A fully equipped health insurance that works 
+                for all your global contractors and employees"
+                button="Sign Up"
+                className="my-3 mb-6"
             />
         </Group>
     );
