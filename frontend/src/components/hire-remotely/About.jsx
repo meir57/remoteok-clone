@@ -126,7 +126,7 @@ export default function About () {
             <div className="border-solid border-b-[1px] border-[#ddd] cursor-default">
                 <div className="m-[30px] text-[#888] text-[15px]">
                     <div>Starting from</div>
-                    <div className="font-bold text-[23px] text-black mt-1">💳 $299</div>
+                    <div className="font-bold text-[23px] text-black mt-2 mb-1">💳 $299</div>
                     <div>for 30 days</div>
                 </div>
             </div>
@@ -140,7 +140,7 @@ export default function About () {
             <div className="border-solid border-b-[1px] border-[#ddd] cursor-default">
                 <div className="m-[30px] text-[#888] text-[15px]">
                     <div>Distributed on the</div>
-                    <div className="flex items-center justify-center font-bold text-[21px] text-black"><div className="inline-block me-1 w-[35px] h-[35px] bg-[url('./assets/hire-remotely/google.png')] bg-contain"></div>Google for Jobs </div>
+                    <div className="flex items-center justify-center font-bold text-[21px] text-black my-1"><div className="inline-block me-1 w-[35px] h-[35px] bg-[url('./assets/hire-remotely/google.png')] bg-contain"></div>Google for Jobs </div>
                     <div>recruitment network</div>
                 </div>
             </div>

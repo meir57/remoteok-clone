@@ -13,7 +13,7 @@ export default function LabeledCheckbox(props) {
             >
                 {props.children}
             </Checkbox>
-            <div className="text-[8px] text-[#888] -mt-2 ms-[.5px] text-justify">
+            <div className="text-[12px] text-[#888] -mt-2 ms-[.5px] text-justify">
                 {props.info}
             </div>
         </div>

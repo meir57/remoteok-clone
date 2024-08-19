@@ -26,10 +26,10 @@ export default function Job(props) {
             </div>
             <div className="flex justify-between w-[270px]">
                 {
-                    props.keywords.map((keyword, key) => <Keyword key={key} text={keyword} className="font-[700] text-[10px] py-[3px] px-[8px] border-solid border-[2px] border-black rounded-default cursor-cell transition duration-300 ease-in-out hover:bg-[#0f1115] hover:text-white hover:border-[#0f1115]" />)
+                    props.keywords.map((keyword, key) => <Keyword key={key} text={keyword} className="font-[700] text-[12px] py-[3px] px-[8px] border-solid border-[2px] border-black rounded-default cursor-cell transition duration-300 ease-in-out hover:bg-[#0f1115] hover:text-white hover:border-[#0f1115]" />)
                 }
             </div>
-            <div className="flex justify-center text-[12px] w-[190px]">
+            <div className="flex justify-center text-[14px] w-[190px]">
                 {props.time}
             </div>
             <div className="w-[175px]">

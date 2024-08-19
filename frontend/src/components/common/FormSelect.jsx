@@ -16,7 +16,7 @@ export default function FormSelect(props) {
             >
                 {props.options}
             </Select>
-            <div className="text-[8px] text-[#888] mt-3 ms-[.5px] text-justify">
+            <div className="text-[12px] text-[#888] mt-3 ms-[.5px] text-justify">
                 {props.info}
             </div>
         </div>

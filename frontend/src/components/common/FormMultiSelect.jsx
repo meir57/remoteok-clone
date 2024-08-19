@@ -13,7 +13,7 @@ export default function FormMultiSelect(props) {
                 className="rounded-[5px] p-[5px] text-[16px]"
                 required={props.required}
             />
-            <div className="text-[8px] text-[#888] mt-3 ms-[.5px] text-justify" dangerouslySetInnerHTML={{__html: props.info}}></div>
+            <div className="text-[12px] text-[#888] mt-3 ms-[.5px] text-justify" dangerouslySetInnerHTML={{__html: props.info}}></div>
         </div>
     );
 }

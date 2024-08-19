@@ -19,7 +19,7 @@ export default function FormTextArea(props) {
             >
                 {props.children}
             </TextArea>
-            <div className="text-[9px] text-[#888] mt-3 ms-[.5px] text-justify">
+            <div className="text-[12px] text-[#888] mt-3 ms-[.5px] text-justify">
                 {props.info}
             </div>
         </div>

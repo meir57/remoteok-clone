@@ -13,7 +13,7 @@ export default function SignUp() {
                 <div className="relative top-[6px]">
                     <span>Already a member? </span>
                     <Link to="/login" className="font-bold underline">Log in</Link>
-                    <div className="font-[400] mt-[10px] text-[8px]">By creating an account you agree to our <u><a href="/legal">terms of service</a></u></div>
+                    <div className="font-[400] mt-[10px] text-[12px]">By creating an account you agree to our <u><a href="/legal">terms of service</a></u></div>
                 </div>
             </div>
         </div>
